@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #ffcc53;
+  background: linear-gradient(#000002, #000002, #332900);
+  overflow-y: hidden;
+}
+button {
+  font-family: 'Lato', sans-serif;
+  border: none;
+  color: #000002;
+  padding: 20px;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.info-container {
+  background-color: #000002;
+  width: 350px;
+  min-height: 35vh;
+  padding: 25px;
+  margin: 1px 5px 15px 5px;
+  border: 2px solid #ffcc53;
+  border-radius: 8px;
+  color: #fff;
+}
